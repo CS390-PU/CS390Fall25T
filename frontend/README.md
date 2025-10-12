@@ -1,3 +1,35 @@
+# Project Template Setup
+
+## Directory Structure
+
+```
+frontend/
+ ├── css/
+ ├── js/
+ ├── node_modules/
+ ├── public/
+ ├── src/
+ │    ├── assets/
+ │    │    ├── data/
+ │    │    │    └── .gitkeep
+ │    │    ├── icons/
+ │    │    │    └── react.svg
+ │    │    └── images/
+ │    │         └── .gitkeep
+ │    ├── components/
+ │    │    └── .gitkeep
+ │    ├── App.jsx
+ │    ├── App.css
+ │    ├── index.css
+ │    └── main.jsx
+ ├── .gitignore
+ ├── index.html
+ ├── package.json
+ ├── vite.config.js
+ └── README.md
+
+```
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
