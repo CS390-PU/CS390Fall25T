@@ -4,44 +4,63 @@
 
 ```
 frontend/
-├── node_modules/                # Installed dependencies (auto-generated)
-├── public/                      # Static files copied as-is during build
-│   └── favicon.ico              # Example (optional)
 │
-├── src/                         # All app source code lives here
-│   ├── assets/                  # Static assets processed by Vite
-│   │   ├── data/                # JSON or other local data sources
-│   │   ├── icons/               # SVGs and small icon graphics
-│   │   └── images/              # Project / site images
+├── public/
+│   ├── pacific_logo.png
+│   └── pacific_logo_white.png
+│
+├── src/
 │   │
-│   ├── components/              # Reusable UI components
-│   │   ├── forms/               # Form components (GeneralSearchForm, etc.)
-│   │   ├── layouts/             # Navigation, dividers, headers, footers
-│   │   └── ui/                  # Optional: small generic UI elements (buttons, cards)
+│   ├── assets/
+│   │   ├── data/
+│   │   │   └── .gitkeep
+│   │   ├── icons/
+│   │   │   └── .gitkeep
+│   │   └── images/
+│   │       └── .gitkeep
 │   │
-│   ├── styles/                  # Global or shared CSS
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── variables.css        # Optional theme or color variables
+│   ├── components/
+│   │   ├── layouts/
+│   │   │   └── .gitkeep
+│   │   └── ui/
+│   │       ├── forms/
+│   │       │   └── .gitkeep
+│   │       └── .gitkeep
 │   │
-│   ├── utils/                   # Plain JS helper functions (no JSX)
-│   │   ├── formatters.js
-│   │   └── filters.js
+│   ├── hooks/
+│   │   └── .gitkeep
 │   │
-│   ├── hooks/                   # Custom React hooks (optional)
-│   │   └── useFetch.js
+│   ├── pages/
+│   │   └── .gitkeep
 │   │
-│   ├── App.jsx                  # Root component
-│   ├── main.jsx                 # Entry point that mounts React
-│   └── index.html               # (If desired inside src/, but usually at project root)
+│   ├── styles/
+│   │   └── index.css
+│   │
+│   ├── utils/
+│   │   └── .gitkeep
+│   │
+│   ├── App.jsx
+│   └── main.jsx
 │
 ├── .gitignore
-├── index.html                   # Main HTML file served by Vite
+├── eslint.config.js
+├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
+```
 
+## Install Dependencies
 
+```
+npm install
+```
+
+## Start frontend Server
+
+```
+npm run dev
 ```
 
 # React + Vite
